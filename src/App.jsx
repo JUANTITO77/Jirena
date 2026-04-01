@@ -24,8 +24,9 @@ function App() {
           <Route path="/certificaciones" element={<Certificaciones/>}/>
           <Route path="/Politicas" element={<Politicas/>}/>
           <Route path="/galerias" element={<Galeria/>}/>
-          <Route path="/*" element={<p>No existe esta Pagina</p>}/>
+          <Route path="/*" element={<Inicio/>}/>
       </Routes>
+      <QuienesSomos/>
     </div>
   )
 }
